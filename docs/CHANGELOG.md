@@ -8,6 +8,12 @@ fix, live in [docs/releases](releases/).
 
 ## [Unreleased]
 
+### Changed
+
+- The developer chart test page (`/chart/test`) now draws its candles with the
+  trading terminal's charting engine and colours, and follows the light, dark
+  and analyzer themes.
+
 ### Fixed
 
 - Sandbox orders could occasionally fail to place with an error, and when
