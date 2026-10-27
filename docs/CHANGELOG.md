@@ -8,6 +8,16 @@ fix, live in [docs/releases](releases/).
 
 ## [Unreleased]
 
+### Changed
+
+- The Option Greeks charts (`/ivchart`) are now drawn by the same charting
+  engine as the trading terminal. They follow the light, dark and analyzer
+  themes, with the call in the theme's green and the put in its red. Hovering
+  a chart now shows the date and time of the reading under the pointer, and on
+  a multi-day range the time axis marks each new day with its date. Times are
+  in IST, as before. The large faint OpenAlgo text behind each chart is
+  replaced by a small mark in its corner.
+
 ### Fixed
 
 - Sandbox orders could occasionally fail to place with an error, and when
